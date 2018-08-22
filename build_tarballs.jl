@@ -2,7 +2,7 @@
 # `julia build_tarballs.jl --help` to see a usage message.
 using BinaryBuilder
 
-name = "MetisBuilder"
+name = "COINMetisBuilder"
 version = v"1.3.5"
 
 # Collection of sources required to build MetisBuilder
