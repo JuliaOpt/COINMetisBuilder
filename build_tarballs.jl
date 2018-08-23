@@ -20,7 +20,7 @@ cd ThirdParty-Metis-releases-1.3.5/
 update_configure_scripts
 mkdir build
 cd build/
-../configure --prefix=$prefix --disable-pkg-config --host=${target} --enable-shared --enable-static --enable-dependency-linking lt_cv_deplibs_check_method=pass_all
+../configure --prefix=$prefix --with-pic --disable-pkg-config --host=${target} --enable-shared --enable-static --enable-dependency-linking lt_cv_deplibs_check_method=pass_all
 make -j${nproc}
 make install
 
